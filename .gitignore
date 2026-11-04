@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
@@ -172,3 +179,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# PostgreSQL data directories
+postgres/
+backend/.postgres/
+*.pgdata
+
+# TS
+node_modules/
